@@ -1,0 +1,28 @@
+/* P8 · Ejercicio 5 · Mosaico
+   Reproduce el modelo: modelos/ej5.png
+   Los colores están en ../comun/base.css: úsalos con var(--azul), var(--verde)…
+*/
+:root {
+  --tinta: #1f2933;
+  --gris: #6b7280;
+  --linea: #d1d5db;
+  --fondo: #f3f4f6;
+  --blanco: #ffffff;
+  --azul: #3b82f6;
+  --verde: #10b981;
+  --ambar: #f59e0b;
+  --rosa: #ec4899;
+  --violeta: #8b5cf6;
+  --rojo: #ef4444;
+}
+html { font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif; font-size: 16px; color: var(--tinta); line-height: 1.4; }
+body { margin: 0; padding: 24px; background: var(--fondo); }
+h1 { font-size: 1.5rem; margin: 0 0 16px; }
+h2, h3 { margin: 0 0 8px; }
+p { margin: 0 0 8px; }
+img { display: block; max-width: 100%; }
+a { color: inherit; }
+
+.lateral {
+   background-color: var(--tinta);
+}
